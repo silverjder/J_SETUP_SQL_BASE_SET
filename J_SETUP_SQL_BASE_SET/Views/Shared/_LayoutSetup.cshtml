@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Setup</title>
+    <link rel="stylesheet" href="~/assets/libs/bootstrap3/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/assets/css/setup.css" />
+    <link rel="stylesheet" href="~/assets/css/smart_wizard.css" />
+</head>
+<body>
+    @RenderBody()
+
+    <script type="text/javascript" src="/assets/libs/jquery/jquery.js"></script>
+    <script type="text/javascript" src="~/assets/libs/bootstrap3/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/assets/libs/tether/js/tether.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
